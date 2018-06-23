@@ -1,0 +1,159 @@
+body {
+    margin-top: 60px;
+}
+
+.navbar-brand {
+    padding: 8px 20px 5px 30px;
+}
+
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-right {
+    margin-right: 10px;
+}
+
+.statistics_bar {
+    height: 90px;
+}
+
+.statistics_bar h1 {
+    font-weight: bold;
+}
+
+.box .list-group {
+    margin-bottom: 0px;
+}
+
+.box h3 {
+    font-weight: bold
+}
+
+.box .panel-body {
+    padding: 0px;
+}
+
+.box li a {
+    float: right;
+    width: 320px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    .box li a {
+        float: right;
+        width: 200px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .box li a {
+        float: right;
+        width: 320px;
+        overflow: hidden;
+    }
+}
+
+a.label {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+footer {
+    background: #1c1c1c;
+    height: 50px;
+}
+
+footer div {
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+.height_all {
+    height: 100%;
+}
+
+.login .row {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.appinfo {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.meta-info {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.meta-info .title {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.meta-info .content {
+    font-size: 14px;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.analysis h5 {
+    margin-top: 10px;
+    padding: 5px;
+    background: linear-gradient(rgb(255, 255, 255) 0px, rgb(246, 246, 246) 47%, rgb(237, 237, 237) 100%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(237, 237, 237);
+    border-image: initial;
+    margin: 5px 0px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+}
+
+.enum {
+    word-wrap: break-word;
+    padding: 3px;
+    border-bottom: 1px dotted rgb(221, 221, 221);
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.func {
+    font-size: 14px;
+}
+
+.func-table {
+    font-size: 14px;
+}
+
+.func-table .td-code {
+    width: 160px;
+}
